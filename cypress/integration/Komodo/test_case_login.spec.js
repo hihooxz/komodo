@@ -12,7 +12,7 @@ describe('Login', () => {
         cy.get('[data-cy=password-login]').type('asdasdasdasd')
     })
     it('show password',() => {
-        cy.get('svg').click()
+        cy.get('svg').click() 
     })
     
     it('click button',() => {
